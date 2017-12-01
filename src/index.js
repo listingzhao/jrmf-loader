@@ -73,6 +73,7 @@ module.exports = function (source) {
   }
 
   let variables = ''
+
   var themes = config.plugins.filter(function (plugin) {
     return plugin.name === 'jrmf-less-theme'
   })

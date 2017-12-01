@@ -13,7 +13,6 @@
 */
 
 /**
-*
 {
  events: {
   'before-html-generation': function (data, cb) {
